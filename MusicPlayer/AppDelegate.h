@@ -10,11 +10,8 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 {
-    // [1]
-    UITabBarController *tabBarController;
 }
 
 @property (strong, nonatomic) UIWindow *window;
-@property (nonatomic, retain) UITabBarController *tabBarController;
 
 @end

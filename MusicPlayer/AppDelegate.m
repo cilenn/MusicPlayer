@@ -11,10 +11,14 @@
 #import "SecondViewController.h"
 
 
+@interface AppDelegate()
+{
+    UITabBarController *tabBarController;
+}
+@end
 
 @implementation AppDelegate
 @synthesize window;
-@synthesize tabBarController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -26,10 +30,9 @@
     
     
     
-    
     //tabBarControllerで管理するViewControllerを指定
     //self.tabBarController = [[UITabBarController alloc] initWithNibName:nil bundle:nil];
-    self.tabBarController = UITabBarController.new;
+    tabBarController = UITabBarController.new;
     
     // 06/25 : UINavigationControllerに変更します。
     //tabBarController.viewControllers = [NSArray arrayWithObjects:firstViewController, secondViewController, nil];

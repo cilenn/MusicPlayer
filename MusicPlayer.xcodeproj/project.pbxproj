@@ -379,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
 				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
 				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +458,7 @@
 				9FBE461E194714CC0039DD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FBE461F194714CC0039DD09 /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				9FBE4621194714CC0039DD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

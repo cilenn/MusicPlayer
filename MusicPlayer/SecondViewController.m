@@ -13,10 +13,14 @@
 
 // クラス拡張 ※ カテゴリ名のない記述形式
 @interface SecondViewController (){
+    
+    
     UITableView *tbl_view;
+    
+    /*
     NSArray *musician;
     int list_count;
-    
+    */
     
     // 06/25 : サウンドリストの変数をセットします
     NSMutableArray          *sectionPlayList;
